@@ -1,10 +1,11 @@
 import React from 'react'
+import Navbar from './Components/Navbar'
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline bg-yellow-300">
-      Hello world!
-    </h1>
+    <main className='text-sm text-neutral-300 antialiased'>
+      <Navbar />
+    </main>
   )
 }
 
