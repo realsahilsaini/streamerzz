@@ -43,7 +43,7 @@ const PricingPlans = () => {
 
         <motion.div 
         initial='hidden'
-        animate='visible'
+        whileInView='visible'
         variants={{
           visible:{
             transition: {
