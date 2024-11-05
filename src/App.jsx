@@ -5,6 +5,7 @@ import HowItWorks from './Components/HowItWorks'
 import PricingPlans from './Components/PricingPlans'
 import KeyFeatures from './Components/KeyFeatures'
 import Testimonials from './Components/Testimonials'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <KeyFeatures />
       <PricingPlans />
       <Testimonials/>
+      <Footer />
     </main>
   )
 }
