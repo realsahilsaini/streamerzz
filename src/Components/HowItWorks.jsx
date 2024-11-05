@@ -9,7 +9,7 @@ const HowItWorks = () => {
       opacity: 1,
       y: 0,
       transition: {
-        delay: i * 0.25,
+        delay: i * 0.4,
         duration: 0.6,
         ease: "easeOut",
       },

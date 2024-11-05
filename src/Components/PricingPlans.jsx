@@ -13,7 +13,7 @@ const PricingPlans = () => {
       opacity: 1,
       y:0,
       transition: {
-        delay: i * 0.2,
+        delay: i * 0.4,
         duration: 0.6,
         ease: 'easeOut',
       }
@@ -59,7 +59,7 @@ const PricingPlans = () => {
              key={index}
              custom={index}
              variants={childrenVariants}
-             className={`p-8 rounded-xl shadow-lg bg-neutral-950 
+             className={`p-8 rounded-xl shadow-lg bg-neutral-950 relative
              ${
               plan.popular ? 'border border-blue-900/80' : 'border border-neutral-800'
              }`}>
@@ -67,7 +67,7 @@ const PricingPlans = () => {
               {plan.popular && (
                 <div className='text-center text-xs font-semibold text-blue-500 uppercase'>
                   
-                  <span className='bg-blue-600 text-white text-xs py-1 px-3 rounded-full'>
+                  <span className='bg-blue-600 text-white text-xs py-1 px-3 rounded-full absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap'>
                     {PLANS_CONTENT.popularBadge}
                   </span>
 

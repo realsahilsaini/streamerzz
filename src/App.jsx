@@ -9,7 +9,7 @@ import Footer from './Components/Footer'
 
 const App = () => {
   return (
-    <main className='text-sm text-neutral-300 antialiased'>
+    <main className='text-sm text-neutral-300 antialiased scroll-smooth'>
       <Navbar />
       <HeroSection />
       <HowItWorks />

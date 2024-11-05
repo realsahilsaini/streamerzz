@@ -1,11 +1,10 @@
 import { BRAND_LOGOS, HERO_CONTENT } from '../constants'
 import heroImage from '../assets/hero.jpg'
 import {motion } from 'framer-motion'
-import { space } from 'postcss/lib/list'
 
 const containerVariants = {
   hidden: { opacity: 0 },
-  visible: { opacity: 1, transition: { staggerChildren: 0.2 } },
+  visible: { opacity: 1, transition: { staggerChildren: 0.4 } },
 }
 
 const fadeInUp = {

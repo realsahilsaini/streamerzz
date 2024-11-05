@@ -10,7 +10,6 @@ const KeyFeatures = () => {
     visible: {
       opacity: 1,
       transition: {
-        type: 'spring',
         staggerChildren: 0.2, 
         when: 'beforeChildren'
       }
@@ -57,7 +56,7 @@ const KeyFeatures = () => {
           <motion.div 
           key={feature.id}
           variants={featureVariants}
-          className='flex flex-col items-center text-center w-full md:w-1/2 lg:w-1/3 p-6 border border-neutral-800'
+          className='flex flex-col items-center text-center w-full md:w-1/2 lg:w-1/3 p-6'
           >
             <div className='flex justify-center items-center mb-4'>
               {feature.icon}

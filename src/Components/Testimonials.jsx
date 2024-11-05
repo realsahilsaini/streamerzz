@@ -10,7 +10,7 @@ const Testimonials = () => {
         opacity: 1,
         y:0,
         transition: {
-          delay: i * 0.1,
+          delay: i * 0.4,
           duration : 0.6,
           ease: 'easeOut',
         }
@@ -18,7 +18,7 @@ const Testimonials = () => {
     }
 
   return (
-    <section id='testimonials'>
+    <section id='testimonial'>
       <div className='max-w-7xl mx-auto px-4 mt-20'>
         <motion.div className="text-center mb-12 border-t border-neutral-800"
         initial={{opacity: 0, y: -20}}
